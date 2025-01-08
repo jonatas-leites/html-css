@@ -22,7 +22,7 @@
 }
 
 html,body{
-    min-height: 100vh;
+    min-height: 100vh;/*tamanho minimo da altura da tela*/
     background-color: black;
     font-family: var(--fonte1);
 }
@@ -30,36 +30,36 @@ html,body{
 header{
     background-color: black;
     color: white;
-    text-align: center;
+    text-align: center;/*para centralizar*/
 
 }
 
 header > h1 {
-    padding-top: 50px;
-    font-variant: small-caps;
+    padding-top: 50px;/*espaçamento em cima*/
+    font-variant: small-caps;/*letras maiusculas c/ a primeira letra maior*/
     font-family: var(--fonte2);
     font-size: 10vw;
 }
 
 header > p {
-    padding-bottom: 50px;
+    padding-bottom: 50px;/*espaçamento em baixo*/
 } 
 
 a {
     color: white;
-    text-decoration: none;
-    font-weight: bolder;
+    text-decoration: none;/*tira o sublinhado*/
+    font-weight: bolder;/* letra em negrito*/
 }
 
 a:hover{
-    text-decoration: underline;
+    text-decoration: underline;/*quando passa o mouse em cima, fica sublinhado*/
 }
 
 section{
-    padding-top: 10vh;
-    padding-bottom: 10vh;
-    line-height: 2em;
-    padding-left: 30px;
+    padding-top: 10vh;/*10% da altura da tela*/
+    padding-bottom: 10vh;/*10% daaltura da tela */
+    line-height: 2em;/*espaçamentoentre as frases*/
+    padding-left: 30px;/*espaçameto na esquerda */
     font-family: var(--fonte3);
     font-size: 4vw;/*4 vezes o tamanho da largura da tela*/
 }
