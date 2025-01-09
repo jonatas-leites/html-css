@@ -38,7 +38,7 @@ header > h1 {
     padding-top: 50px;/*espaçamento em cima*/
     font-variant: small-caps;/*letras maiusculas c/ a primeira letra maior*/
     font-family: var(--fonte2);
-    font-size: 10vw;
+    font-size: 10vw;/*para ir diminuindo a letra conforme diminui a tela*/
 }
 
 header > p {
@@ -61,7 +61,7 @@ section{
     line-height: 2em;/*espaçamentoentre as frases*/
     padding-left: 30px;/*espaçameto na esquerda */
     font-family: var(--fonte3);
-    font-size: 4vw;/*4 vezes o tamanho da largura da tela*/
+    font-size: 4vw;/*para ir diminuindo a letra conforme diminui a tela*/
 }
 
 section > p {
@@ -84,8 +84,8 @@ section.imagem{
 }
 
 section.imagem > p {
-    display: inline-block;
-    padding: 5px;
+    display: inline-block;/*para adaptar a caixa conforme o tamanho do conteúdo*/
+    padding: 5px;/*espaçamento emtodos os lados*/
     background-color: rgba(0, 0, 0, 0.514);
     text-shadow: 1px 1px 0px;
     font-family: var(--fonte3);
