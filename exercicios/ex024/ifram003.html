@@ -4,19 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Uso de ifram</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        iframe#tela{
+            width: 95vw;/*largura de 95% da tela*/
+            height:400px ;/*altura de 400px*/
+            border: 2px solid black ;
+        }
+    </style>
 </head>
 <body>
     <h1>Faça uma escolha</h1>
     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia nulla architecto ipsam molestiae atque officiis accusamus eius? Officia, omnis! Vel ab non molestias? Tenetur consectetur eos minima doloribus optio voluptate!</p>
 
     <ul>
-        <li><a href="#">Primeira Página</a></li>
-        <li><a href="#">Segunda Página</a></li>
-        <li><a href="#">Terceira Página</a></li>
+        <li><a href="paginas-extras/pag001.html" target="frame">Primeira Página</a></li>
+        <li><a href="paginas-extras/pag002.html" target="frame">Segunda Página</a></li>
+        <li><a href="paginas-extras/pag003.html" target="frame">Terceira Página</a></li>
     </ul>
     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus, quo, perspiciatis ipsum omnis inventore velit consectetur temporibus soluta placeat iusto odio eveniet quod culpa atque assumenda error illo ullam dolorem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, qui velit! Neque vitae aliquid velit doloremque possimus repellat libero atque laborum totam aspernatur minima a similique, consequatur ratione quam veritatis.</p>
 
-    <iframe src="">
+    <iframe id="tela" name="frame" srcdoc="<h1> Escolha uma das opções acima </h1> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit odit voluptatum corporis, qui rem maxime facere tempora? Non officia voluptate impedit quasi provident, id, eum harum exercitationem quis voluptatem amet.</p><img src= 'imagens/logo.png.png'>" >
         <p>Infelismente seu navegador não é compativel com isso</p>
     </iframe>
     
