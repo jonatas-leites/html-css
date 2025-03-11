@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de formularios</title>
+</head>
+<body>
+    <form action="cadastro.php" method="post">
+        <p><label for="iusu">usuario</label></p>
+        <input type="text" name="usu" id="iusu" required maxlength="6" minlength="4" size="6" placeholder="usuario"><!--required =  campo obrigatorio-->
+
+        <p><label for="isen">senha</label></p>
+        <input type="password" name="sem" id="isem" required maxlength="6"
+        minlength="6" size="6" placeholder="senha">
+
+        <p>
+            <input type="submit" value="enviar">
+            <input type="reset" value="limpar">
+        </p>
+
+    </form>
+</body>
+</html>
