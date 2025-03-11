@@ -12,7 +12,8 @@
 </head>
 <body>
     <h1>Meu primeiro formulário</h1>
-    <form action="cadastro.php">
+    <form action="cadastro.php" method="post" autocomplete="off"><!--para não completar as palavras automaticamente / post para nao aparecer os dados na url-->
+        
         <p><label for="inome">Nome</label><!--para relacionar o nome com a caixa --> 
             <input type="text" name="Nome" id="inome"></p><!--para fazer a caixa-->
 
