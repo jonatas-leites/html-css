@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulário</title>
+</head>
+
+<style>
+    body{
+        background-color: blanchedalmond;
+    }
+    fieldset{
+        width: 300px;
+        background-color: rgb(185, 183, 36);
+        font-size: 2em;
+        margin-bottom: 40px;
+        border-color:rgb(185, 183, 36);;
+    }
+    input#bot{
+        background-color:darkgoldenrod;
+        font-size: 2em;
+        margin-left: 45px;
+    }
+    input#bot:hover{
+        background-color: lawngreen;
+    }
+</style>
+<body>
+    <h1>Exemplo de formulário</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <fieldset>
+            <legend>Sexo</legend>
+
+            <input type="radio" name="sexo" id="isxmas" value="M"><label for="isxmas">Masculino</label> <br>
+
+            <input type="radio" name="sexo" id="isxfem" value="F"><label for="isxfem">Feminino</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Esportes Favoritos</legend>
+            <input type="checkbox" name="esfut" id="ifut"><label for="ifut">Futebol</label><br>
+
+            <input type="checkbox" name="esbas" id="ibas"><label for="ibas">Basquete</label><br>
+
+            <input type="checkbox" name="esvol" id="ivol"><label for="ivol">Volei</label> <br>
+
+            <input type="checkbox" name="esbjj" id="ibjj"><label for="ibjj">Jiu-Jitsu</label>
+
+
+            
+        </fieldset>
+        <p>
+            <input type="submit" value="enviar" id="bot">
+            <input type="reset" value="limpar" id="bot">
+        </p>
+
+    </form>
+    
+</body>
+</html>
