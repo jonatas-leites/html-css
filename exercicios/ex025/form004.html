@@ -10,9 +10,11 @@
         background-color: goldenrod;
     }
     fieldset{
+        margin: 0px;
         width: 300px;
         background-color: brown;
     }
+
 </style>
 <body>
     <h1>Exemplo de formulário</h1>
@@ -32,11 +34,12 @@
                 <input type="tel" name="tel" id="itel"
                 pattern="^\(\d{2}\)\d{4,5}-\d{4}$" required placeholder="(xx)xxxxx-xxxx">
             </p>
+
             <p>
-        </fieldset>
-            <input type="submit" value="Enviar">
-            <input type="reset" value="Limpar">
-        </p>
+                <input type="submit" value="Enviar" id="bot">
+                <input type="reset" value="Limpar" id="bot">
+            </p>
+    </fieldset>
 
     </form>
 </body>
